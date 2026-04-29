@@ -132,3 +132,40 @@ If you have any feedback, please reach out to me at adityarana65@gmail.com
   <img src="photos/FirebaseScreen19.png" width="250"/>
   <img src="photos/FirebaseScreen20.png" width="250"/>
 </p>
+
+<br>
+
+# ⚠️ Setup Notes
+
+> Please complete the following steps before running the project:
+
+---
+
+### 🔑 Firebase Configuration
+
+- Set up your project in the **Firebase Console**
+- Download the `google-services.json` file
+- Place it inside the project directory:app/google-services.json
+
+
+- Ensure the file name is exactly **`google-services.json`** (do not rename)
+
+---
+
+### ☁️ Firestore Database Setup
+
+- Configure **Firebase Firestore** according to the project structure
+- Refer to the screenshots provided in this repository for guidance
+
+---
+
+### 🔐 Authentication Setup
+
+- Enable **Email/Password Authentication** in the Firebase Console
+- Required for login and signup functionality
+
+---
+
+## 💡 Important Note
+
+- The `google-services.json` file is **not included** in this repository for security reasons so it is added to my `.gitignore` file to prevent accidental exposure
